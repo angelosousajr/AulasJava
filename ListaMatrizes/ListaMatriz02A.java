@@ -1,0 +1,31 @@
+public class ListaMatriz02A {
+    public static void main(String[] args){
+        int [][] m = new int[5][5];
+
+        System.out.println("Sorteando números...");
+        for(int i = 0; i < 5; i++){
+            for(int j = 0; j < 5; j++){
+                m[i][j] = (int)(Math.random()*9)+1;
+            }
+        }
+
+        System.out.println("Soma dos números impares:");
+        int somaImpares = 0;
+        for(int i = 0; i < 5; i++){
+            for(int j = 0; j < 5; j++){
+                if(m[i][j] == 1){
+                    somaImpares = somaImpares + m[i][j];
+                }else if(m[i][j] == 3){
+                    somaImpares = somaImpares + m[i][j];
+                }else if(m[i][j] == 5){
+                    somaImpares = somaImpares + m[i][j];
+                }else if(m[i][j] == 7){
+                    somaImpares = somaImpares + m[i][j];
+                }else if(m[i][j] == 9){
+                    somaImpares = somaImpares + m[i][j];
+                }
+            }
+        }
+        System.out.println(somaImpares);
+    }
+}
