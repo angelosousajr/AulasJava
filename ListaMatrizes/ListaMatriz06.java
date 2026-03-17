@@ -70,11 +70,12 @@ public class ListaMatriz06 {
             for(int j = 0; j < 3; j++){
                 if(i == j){
                     somaDiagonal1 = somaDiagonal1 + m[i][j];
+                }
             }
         }
+
         System.out.println(somaDiagonal1);
         System.out.println("");
-        }
 
         System.out.println("Soma dos elementos da diagonal 2:");
         int somaDiagonal2 = 0;
@@ -82,15 +83,15 @@ public class ListaMatriz06 {
             for(int j = 0; j < 3; j++){
                 if (i == 0 && j == 2){
                     somaDiagonal2 = somaDiagonal2 + m[i][j];
-            }   else if(i == 2 && j ==0){
+                }   else if(i == 2 && j ==0){
                     somaDiagonal2 = somaDiagonal2 + m[i][j];
-            }   else if(i == 1 && j == 1){
+                }   else if(i == 1 && j == 1){
                 somaDiagonal2 = somaDiagonal2 + m[i][j];
+                }
             }
         }
         System.out.println(somaDiagonal2);
         System.out.println("");
-        }
 
     }
 }
