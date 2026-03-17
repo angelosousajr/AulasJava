@@ -7,6 +7,15 @@ public class ListaMatriz02A {
             for(int j = 0; j < 5; j++){
                 m[i][j] = (int)(Math.random()*9)+1;
             }
+            System.out.println("");
+        }
+
+        System.out.println("Matriz:");
+        for (int i = 0; i < 5; i++){
+            for (int j = 0; j < 5; j++){
+                System.out.print(m[i][j] + " ");
+            }
+            System.out.println("");
         }
 
         System.out.println("Soma dos números impares:");
