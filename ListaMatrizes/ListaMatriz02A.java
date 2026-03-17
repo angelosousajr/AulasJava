@@ -13,15 +13,7 @@ public class ListaMatriz02A {
         int somaImpares = 0;
         for(int i = 0; i < 5; i++){
             for(int j = 0; j < 5; j++){
-                if(m[i][j] == 1){
-                    somaImpares = somaImpares + m[i][j];
-                }else if(m[i][j] == 3){
-                    somaImpares = somaImpares + m[i][j];
-                }else if(m[i][j] == 5){
-                    somaImpares = somaImpares + m[i][j];
-                }else if(m[i][j] == 7){
-                    somaImpares = somaImpares + m[i][j];
-                }else if(m[i][j] == 9){
+                if(m[i][j] % 2 != 0){
                     somaImpares = somaImpares + m[i][j];
                 }
             }
