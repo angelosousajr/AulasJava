@@ -73,7 +73,6 @@ public class ListaMatriz06 {
                 }
             }
         }
-
         System.out.println(somaDiagonal1);
         System.out.println("");
 
