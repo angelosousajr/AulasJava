@@ -14,9 +14,9 @@ public class ListaMatriz04C {
             for(int j = 0; j < 4; j++){
                 transposta[j][i] = m[i][j];
             }
-            System.out.println("");
         }
 
+        System.out.println("");
         System.out.println("A matriz original:");
         for(int i = 0; i < 4; i++){
             for(int j = 0; j < 4; j++){
@@ -25,6 +25,7 @@ public class ListaMatriz04C {
             System.out.println("");
         }
 
+        System.out.println("");
         System.out.println("A matriz transposta:");
         for(int i = 0; i < 4; i++){
             for(int j = 0; j < 4; j++){
