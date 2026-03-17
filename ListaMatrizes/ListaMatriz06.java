@@ -5,6 +5,7 @@ public class ListaMatriz06 {
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 3; j++){
                 m[i][j] = Integer.parseInt((JOptionPane.showInputDialog("Digite um número:")));
+                //Nosso exemplo de Quadrado Perfeito: 6 1 8 7 5 3 2 9 4
             }
         }
         System.out.println("Conteúdo da matriz completa:");
