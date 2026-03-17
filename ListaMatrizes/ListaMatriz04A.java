@@ -13,7 +13,7 @@ public class ListaMatriz04A {
         for(int i = 0; i < 4; i++){
             for(int j = 0; j < 4; j++){
                 if(i == j){
-                    System.out.println("%.2f  ", m[i][j]);
+                    System.out.printf("%.2f  ", m[i][j]);
             }
         }
         System.out.println("");
