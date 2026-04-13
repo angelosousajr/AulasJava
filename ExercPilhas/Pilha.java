@@ -11,7 +11,7 @@ public class Pilha {
         topo = -1;
     }
 
-    //método para ADICIONAR (empilhar)
+    //método para ADICIONAR (empilhar/push)
     public void adicionar(int valor){
         if(topo < dados.length - 1){
             topo = topo + 1; //sobe um degrau
@@ -22,7 +22,7 @@ public class Pilha {
         }
     }
 
-    //método para REMOVER (desempilhar)
+    //método para REMOVER (desempilhar/pop)
     public int remover() {
         if (topo >= 0){
             int valorQueSaiu = dados[topo];
